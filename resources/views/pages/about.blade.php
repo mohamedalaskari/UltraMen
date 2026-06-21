@@ -24,7 +24,7 @@
 </section>
 
 {{-- ── Philosophy ──────────────────────────────────────────────────────────────── --}}
-<section class="py-32 max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<section class="py-32 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
     <div class="md:col-span-5 flex flex-col justify-center section-fade">
         <h2 class="font-headline-lg text-headline-lg uppercase mb-8">
             {!! $philosophy['headline'] !!}
@@ -54,7 +54,7 @@
 
 {{-- ── Three Pillars ────────────────────────────────────────────────────────────── --}}
 <section class="bg-surface-container-low py-32 border-y border-surface-variant">
-    <div class="max-w-container-max mx-auto px-margin-desktop">
+    <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         <div class="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-8 section-fade">
             <h2 class="font-display text-5xl uppercase leading-none">
                 {{ content_text('about', 'pillars_title') }}

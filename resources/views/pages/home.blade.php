@@ -96,12 +96,12 @@
                     <button type="button" onclick="scrollBestSellers(-1)" id="bsScrollLeft"
                             class="w-9 h-9 md:w-10 md:h-10 border border-outline-variant flex items-center justify-center
                                    hover:border-primary hover:bg-primary hover:text-on-primary transition-colors">
-                        <span class="material-symbols-outlined text-lg">chevron_left</span>
+                        <span class="material-symbols-outlined text-lg rtl:rotate-180">chevron_left</span>
                     </button>
                     <button type="button" onclick="scrollBestSellers(1)" id="bsScrollRight"
                             class="w-9 h-9 md:w-10 md:h-10 border border-outline-variant flex items-center justify-center
                                    hover:border-primary hover:bg-primary hover:text-on-primary transition-colors">
-                        <span class="material-symbols-outlined text-lg">chevron_right</span>
+                        <span class="material-symbols-outlined text-lg rtl:rotate-180">chevron_right</span>
                     </button>
                 </div>
                 @endif
@@ -171,7 +171,8 @@
 function scrollBestSellers(direction) {
     const container = document.getElementById('bestSellersScroll');
     if (!container) return;
-    container.scrollBy({ left: container.clientWidth * 0.85 * direction, behavior: 'smooth' });
+    const rtlSign = document.documentElement.dir === 'rtl' ? -1 : 1;
+    container.scrollBy({ left: container.clientWidth * 0.85 * direction * rtlSign, behavior: 'smooth' });
 }
 
 (function () {
@@ -182,8 +183,9 @@ function scrollBestSellers(direction) {
 
     function updateArrows() {
         const maxScroll = container.scrollWidth - container.clientWidth;
-        const atStart   = container.scrollLeft <= 4;
-        const atEnd     = container.scrollLeft >= maxScroll - 4;
+        const scrollPos = Math.abs(container.scrollLeft);
+        const atStart   = scrollPos <= 4;
+        const atEnd     = scrollPos >= maxScroll - 4;
         leftBtn.classList.toggle('opacity-30', atStart);
         leftBtn.classList.toggle('pointer-events-none', atStart);
         rightBtn.classList.toggle('opacity-30', atEnd);
