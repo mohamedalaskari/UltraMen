@@ -1,0 +1,71 @@
+<?php
+
+return [
+    'add_title'         => 'Add Product',
+    'add_breadcrumb'    => 'Products / New Product',
+    'edit_title'        => 'Edit Product',
+    'edit_breadcrumb'   => 'Products / :name',
+
+    'basic_information' => 'Basic Information',
+    'product_name_en'   => 'Product Name (English) *',
+    'product_name_ar'   => 'Product Name (Arabic) *',
+    'slug'               => 'Slug *',
+    'slug_hint'          => '(URL identifier)',
+    'category'           => 'Category *',
+    'select_category'    => 'Select a category',
+    'not_in_list'         => '(not in list)',
+    'price_usd'           => 'Price (USD) *',
+    'special_offer'       => 'Special Offer',
+    'this_product_on_offer' => 'This product is on offer',
+    'original_price'        => 'Original Price (before discount)',
+    'original_price_hint'   => '(must be higher than the price above)',
+    'strikethrough_hint'    => 'Customers will see :original :current with a strikethrough on the old price.',
+    'subtitle_en'           => 'Subtitle (English)',
+    'subtitle_ar'           => 'Subtitle (Arabic)',
+    'badge_text'            => 'Badge Text',
+    'badge_text_hint'       => '(e.g. "New", "Limited")',
+    'description_en'        => 'Description (English) *',
+    'description_ar'        => 'Description (Arabic) *',
+
+    'main_image'             => 'Main Image',
+    'main_image_required'    => 'Main Image *',
+    'main_image_hint_create' => '(any image type, max 4MB)',
+    'main_image_hint_edit'   => '(leave empty to keep current — any image type)',
+
+    'additional_photos'      => 'Additional Photos',
+    'additional_photos_hint' => 'Up to 6 extra images. The first one also shows as the hover image on product cards. Any image type works.',
+    'photo'                  => 'Photo :number',
+
+    'sizes'             => 'Sizes',
+    'has_sizes'         => 'Has sizes',
+    'size_placeholder'  => 'e.g. M, 42, One Size — press Enter to add',
+    'add'               => 'Add',
+
+    'finishes'              => 'Finishes / Colors',
+    'has_finishes'          => 'Has finishes',
+    'finish_name_placeholder' => 'Finish name',
+    'add_finish'             => '+ ADD FINISH',
+
+    'trust_badges'           => 'Trust Badges',
+    'show_badges'            => 'Show badges',
+    'trust_icon_hint'        => 'Icon name from :link (e.g. verified_user, local_shipping).',
+    'material_symbols'       => 'Material Symbols',
+    'icon_name_placeholder'  => 'icon name',
+    'label_placeholder'      => 'Label',
+    'add_badge'               => '+ ADD BADGE',
+
+    'extra_info_sections'    => 'Extra Info Sections',
+    'add_sections'           => 'Add sections',
+    'section_title_placeholder' => 'Section title (e.g. Materials & Care)',
+    'section_content_placeholder' => 'Section content...',
+    'add_section'             => '+ ADD SECTION',
+
+    'labels'                  => 'Labels',
+    'sort_order'               => 'Sort Order',
+    'sort_order_hint'          => 'Lower = shown first',
+
+    'create_product'           => 'CREATE PRODUCT',
+    'save_changes'              => 'SAVE CHANGES',
+    'cancel'                    => 'CANCEL',
+    'view_product'               => 'VIEW PRODUCT',
+];

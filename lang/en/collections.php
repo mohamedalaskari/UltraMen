@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title'           => 'Elite Essentials',
+    'curated_gallery' => 'CURATED GALLERY',
+    'search_products' => 'SEARCH PRODUCTS',
+    'sort_by'         => 'SORT BY',
+    'filters'         => 'FILTERS',
+    'quick_filter'    => 'QUICK FILTER:',
+    'all'             => 'ALL',
+    'category'        => 'CATEGORY',
+    'all_categories'  => 'All',
+    'collection'      => 'COLLECTION',
+    'all_collections' => 'All Collections',
+    'price_range'     => 'PRICE RANGE',
+    'min'             => 'Min',
+    'max'             => 'Max',
+    'apply_price'     => 'APPLY PRICE',
+    'clear_all'       => 'CLEAR ALL FILTERS',
+    'no_products'     => 'No products match your filters.',
+    'showing_results'  => 'Showing :from–:to of :total products',
+    'previous'         => 'PREVIOUS',
+    'next'             => 'NEXT',
+    'from_price'       => 'From $:amount',
+    'to_price'         => 'To $:amount',
+];

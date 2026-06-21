@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'title'              => 'Shipping & Tax',
+    'breadcrumb'         => 'Manage shipping zones, rates, and tax',
+    'shipping_zones'     => 'Shipping Zones',
+    'shipping_zones_hint' => 'Each zone has its own standard and express rates.',
+    'add_zone'           => 'ADD ZONE',
+    'zone'               => 'Zone',
+    'standard'           => 'Standard',
+    'express'            => 'Express',
+    'status'             => 'Status',
+    'active'             => 'Active',
+    'inactive'           => 'Inactive',
+    'no_zones_yet'       => 'No shipping zones yet.',
+    'add_first_one'      => 'Add the first one.',
+    'delete_zone_confirm' => 'Delete shipping zone :name?',
+
+    'tax'                => 'Tax',
+    'tax_hint'           => 'Optional. Applied to order subtotals at checkout when enabled.',
+    'enable_tax'         => 'Enable tax on orders',
+    'tax_rate'           => 'Tax Rate (%)',
+    'save_tax_settings'  => 'SAVE TAX SETTINGS',
+
+    'add_zone_title'     => 'Add Zone',
+    'edit_zone_title'    => 'Edit Zone',
+    'zone_name'          => 'Zone / Region Name *',
+    'zone_name_placeholder' => 'e.g. Cairo, Alexandria, Other Governorates',
+    'standard_price'     => 'Standard Price *',
+    'days_min'           => 'Days (min) *',
+    'days_max'           => 'Days (max) *',
+    'express_price'      => 'Express Price *',
+    'sort_order'         => 'Sort Order',
+    'save_zone'          => 'SAVE ZONE',
+];

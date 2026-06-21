@@ -1,0 +1,191 @@
+body {
+    background-color: #fbf9f8;
+    color: #1b1c1c;
+    overflow-x: hidden;
+}
+
+.font-arabic, .font-arabic *:not(.material-symbols-outlined) {
+    font-family: 'Noto Kufi Arabic', 'Montserrat', sans-serif !important;
+}
+
+[dir="rtl"] .input-underline {
+    text-align: right;
+}
+[dir="rtl"] .checkout-label {
+    text-align: right;
+}
+[dir="rtl"] .custom-input {
+    text-align: right;
+}
+[dir="rtl"] s {
+    unicode-bidi: isolate;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.editorial-line {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #775a19, transparent);
+}
+
+.charcoal-gradient {
+    background: linear-gradient(135deg, #1b1c1c 0%, #444748 50%, #1b1c1c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-hover img {
+    transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1);
+}
+
+.product-hover:hover img {
+    transform: scale(1.05);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #fbf9f8;
+}
+::-webkit-scrollbar-thumb {
+    background: #775a19;
+}
+
+.nav-link {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gold-gradient {
+    background: linear-gradient(90deg, #785a1a 0%, #fed488 50%, #785a1a 100%);
+}
+
+.product-card:hover .secondary-image {
+    opacity: 1;
+}
+
+/* Cart page */
+.progress-line {
+    height: 1px;
+    background: #000;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+/* Contact page */
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #1c1b1b;
+    background: transparent;
+    border-radius: 0;
+    padding: 12px 0;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+.custom-input:focus {
+    outline: none;
+    border-bottom: 1px solid #775a19;
+    box-shadow: none;
+}
+.luxury-card {
+    border: 1px solid #e4e2e2;
+    transition: border-color 0.4s ease;
+}
+.luxury-card:hover {
+    border-color: #775a19;
+}
+
+/* Archive page */
+.hover-zoom {
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.product-image-container:hover .hover-zoom {
+    transform: scale(1.05);
+}
+.filter-transition {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* About page */
+.image-reveal-container {
+    overflow: hidden;
+}
+.image-reveal-container img {
+    transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.image-reveal-container:hover img {
+    transform: scale(1.05);
+}
+
+.kerning-tight { letter-spacing: -0.05em; }
+.kerning-wide  { letter-spacing: 0.2em; }
+
+/* Product detail page */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Checkout page */
+.input-underline {
+    border: none;
+    border-bottom: 1px solid #131313;
+    background: transparent;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+.input-underline:focus {
+    box-shadow: none;
+    border-color: #775a19;
+    outline: none;
+}
+.shipping-method-card {
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+.shipping-method-card:has(input:checked) {
+    border-color: #775a19;
+    background-color: rgba(119, 90, 25, 0.05);
+}
+/* Confirmation page */
+.reveal-animation {
+    animation: revealUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+}
+@keyframes revealUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.confirmation-card {
+    border: 1px solid #c4c7c7;
+    transition: border-color 0.4s ease;
+}
+.confirmation-card:hover {
+    border-color: #C5A059;
+}
+
+.checkout-label {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #444748;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}

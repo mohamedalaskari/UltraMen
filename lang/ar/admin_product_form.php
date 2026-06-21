@@ -1,0 +1,71 @@
+<?php
+
+return [
+    'add_title'         => 'إضافة منتج',
+    'add_breadcrumb'    => 'المنتجات / منتج جديد',
+    'edit_title'        => 'تعديل المنتج',
+    'edit_breadcrumb'   => 'المنتجات / :name',
+
+    'basic_information' => 'المعلومات الأساسية',
+    'product_name_en'   => 'اسم المنتج (إنجليزي) *',
+    'product_name_ar'   => 'اسم المنتج (عربي) *',
+    'slug'               => 'الرابط المختصر *',
+    'slug_hint'          => '(معرّف الرابط)',
+    'category'           => 'التصنيف *',
+    'select_category'    => 'اختر تصنيفاً',
+    'not_in_list'         => '(غير موجود في القائمة)',
+    'price_usd'           => 'السعر (دولار) *',
+    'special_offer'       => 'عرض خاص',
+    'this_product_on_offer' => 'هذا المنتج عليه عرض',
+    'original_price'        => 'السعر الأصلي (قبل الخصم)',
+    'original_price_hint'   => '(يجب أن يكون أعلى من السعر أعلاه)',
+    'strikethrough_hint'    => 'سيرى العملاء :original :current مع خط على السعر القديم.',
+    'subtitle_en'           => 'العنوان الفرعي (إنجليزي)',
+    'subtitle_ar'           => 'العنوان الفرعي (عربي)',
+    'badge_text'            => 'نص الشعار',
+    'badge_text_hint'       => '(مثال: "جديد"، "محدود")',
+    'description_en'        => 'الوصف (إنجليزي) *',
+    'description_ar'        => 'الوصف (عربي) *',
+
+    'main_image'             => 'الصورة الرئيسية',
+    'main_image_required'    => 'الصورة الرئيسية *',
+    'main_image_hint_create' => '(أي نوع صورة، حتى 4 ميجابايت)',
+    'main_image_hint_edit'   => '(اتركها فارغة للاحتفاظ بالصورة الحالية — أي نوع صورة)',
+
+    'additional_photos'      => 'صور إضافية',
+    'additional_photos_hint' => 'حتى 6 صور إضافية. الأولى تظهر أيضاً كصورة عند المرور بالماوس على بطاقة المنتج. أي نوع صورة يعمل.',
+    'photo'                  => 'صورة :number',
+
+    'sizes'             => 'المقاسات',
+    'has_sizes'         => 'له مقاسات',
+    'size_placeholder'  => 'مثال: M، 42، مقاس واحد — اضغط Enter للإضافة',
+    'add'               => 'إضافة',
+
+    'finishes'              => 'الألوان / التشطيبات',
+    'has_finishes'          => 'له تشطيبات',
+    'finish_name_placeholder' => 'اسم التشطيب',
+    'add_finish'             => '+ إضافة تشطيب',
+
+    'trust_badges'           => 'شعارات الثقة',
+    'show_badges'            => 'عرض الشعارات',
+    'trust_icon_hint'        => 'اسم الأيقونة من :link (مثال: verified_user، local_shipping).',
+    'material_symbols'       => 'Material Symbols',
+    'icon_name_placeholder'  => 'اسم الأيقونة',
+    'label_placeholder'      => 'التسمية',
+    'add_badge'               => '+ إضافة شعار',
+
+    'extra_info_sections'    => 'أقسام معلومات إضافية',
+    'add_sections'           => 'إضافة أقسام',
+    'section_title_placeholder' => 'عنوان القسم (مثال: الخامات والعناية)',
+    'section_content_placeholder' => 'محتوى القسم...',
+    'add_section'             => '+ إضافة قسم',
+
+    'labels'                  => 'العلامات',
+    'sort_order'               => 'ترتيب العرض',
+    'sort_order_hint'          => 'الأصغر = يظهر أولاً',
+
+    'create_product'           => 'إنشاء المنتج',
+    'save_changes'              => 'حفظ التغييرات',
+    'cancel'                    => 'إلغاء',
+    'view_product'               => 'عرض المنتج',
+];

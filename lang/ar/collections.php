@@ -1,0 +1,26 @@
+<?php
+
+return [
+    'title'           => 'الأساسيات المميزة',
+    'curated_gallery' => 'معرض مختار',
+    'search_products' => 'بحث عن منتجات',
+    'sort_by'         => 'ترتيب حسب',
+    'filters'         => 'الفلاتر',
+    'quick_filter'    => 'فلتر سريع:',
+    'all'             => 'الكل',
+    'category'        => 'التصنيف',
+    'all_categories'  => 'الكل',
+    'collection'      => 'التشكيلة',
+    'all_collections' => 'كل التشكيلات',
+    'price_range'     => 'نطاق السعر',
+    'min'             => 'الأدنى',
+    'max'             => 'الأعلى',
+    'apply_price'     => 'تطبيق السعر',
+    'clear_all'       => 'إزالة كل الفلاتر',
+    'no_products'     => 'لا توجد منتجات تطابق الفلاتر.',
+    'showing_results'  => 'عرض :from–:to من :total منتج',
+    'previous'         => 'السابق',
+    'next'             => 'التالي',
+    'from_price'       => 'من $:amount',
+    'to_price'         => 'إلى $:amount',
+];
